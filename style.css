@@ -10,16 +10,18 @@ body{
     height: 100px;
 }
 
-.navigation-bar h6{
+.navigation-bar a{
     font-size: 20px;
     margin-left: 100px;
     float: right;
-    font-weight: normal;
+    font-weight: 600;
+    color: darkslategrey;
+    text-decoration: none;
 }
 /* Navigation Bar Ends */
 
 h1{
-    font-size: 80px;
+    font-size: 70px;
     margin-top: 0px;
 }
 
@@ -35,10 +37,6 @@ h4{
     font-size: 25px;
 }
 
-.header{
-    margin-bottom: 10px;
-}
-
 p{
     font-size: 20px;
     color:darkgray;
@@ -47,8 +45,9 @@ p{
 }
 
 .header{
-    font-family: 'Roboto', sans-serif;
-    color: navy;
+    font-family: 'Poppins', sans-serif;
+    color: darkslategrey;
+    margin-bottom: 10px;
 }
 
 .text-part{
@@ -109,6 +108,7 @@ p{
 
 #central-text{
     text-align: center;
+    color: lightslategrey;
 }
 
 .grey-part{
@@ -177,8 +177,9 @@ p{
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
-    height: 500px;
-    margin-bottom: 100px;
+    height: 300px;
+    padding-top: 100px;
+    margin-bottom: 50px;
 }
 
 .ending-part p{
@@ -195,4 +196,55 @@ p{
 .icons-part img{
     width: 8%;
     margin: 5px 15px;
+}
+
+.review-part{
+    height: 500px;
+    clear: both;
+    background-color: #1A91DA;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+}
+
+.review-text{
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.review-part h2{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.review-part p{
+    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.review-part a{
+    margin-top: 50%;
+    margin-left: 35%;
+    padding: 2% 5%;
+}
+
+.review-part address{
+    margin-left: 25%;
+    color: lightgoldenrodyellow;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+#reviewer-name{
+    color: yellow;
+}
+
+.footer{
+    margin-left: 36%;
 }
