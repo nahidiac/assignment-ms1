@@ -3,6 +3,7 @@ body{
 }
 h1{
     font-size: 80px;
+    margin-top: 0px;
 }
 
 h2{
@@ -13,14 +14,20 @@ h3{
     font-size: 40px;
 }
 
+h4{
+    font-size: 25px;
+}
+
 p{
     font-size: 20px;
     color: gray;
     text-align: justify;
+    margin-bottom: 50px;
 }
 
 .header{
     font-family: 'Roboto', sans-serif;
+    color: navy;
 }
 
 .orange-highlight{
@@ -60,9 +67,10 @@ p{
     text-decoration: none;
     font-size: 20px;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 1% 4%;
+    padding: 3% 7%;
     color: white;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 #central-text{
@@ -73,17 +81,45 @@ p{
     clear:both;
     margin-top: 200px;
     padding: 10% 5%;
+    height: 500px;
+    background-color:#e6ecf5;
 }
 
 .one-third-width{
     width: 25%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .project-part{
-    margin-left: 5%;
+    margin-left: 15%;
     margin-right: 5%;
+    height: 300px;
+    
 }
 
 .white-part{
     height: 1500px;
+}
+
+.inquiry-part{
+    background-image: url("shapes/Group_33094_1.png");
+    height: 300px;
+    width: 50%;
+    color: white;
+    margin: 15%;
+    border-radius: 10px;
+}
+
+.blue-box-content1{
+    width: 70%;
+    float: left;
+    padding: 10% 2%;
+}
+
+.blue-box-content2{
+    width: 20%;
+    float: left;
+    padding: 10% 2%;
 }
