@@ -1,6 +1,23 @@
+
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* Navigation Bar AT The Top */
+.navigation-bar{
+    float: right;
+    margin-right: 200px;
+    height: 100px;
+}
+
+.navigation-bar h6{
+    font-size: 20px;
+    margin-left: 100px;
+    float: right;
+    font-weight: normal;
+}
+/* Navigation Bar Ends */
+
 h1{
     font-size: 80px;
     margin-top: 0px;
@@ -18,9 +35,13 @@ h4{
     font-size: 25px;
 }
 
+.header{
+    margin-bottom: 10px;
+}
+
 p{
     font-size: 20px;
-    color: gray;
+    color:darkgray;
     text-align: justify;
     margin-bottom: 50px;
 }
@@ -28,6 +49,10 @@ p{
 .header{
     font-family: 'Roboto', sans-serif;
     color: navy;
+}
+
+.text-part{
+    margin-top: 100px;
 }
 
 .orange-highlight{
@@ -57,6 +82,15 @@ p{
 
 .hello-part{
     height: 500px;
+    margin-top: 50px;
+}
+
+.about-part{
+    margin-top: 50px;
+}
+
+.about-part img{
+    margin-top: 100px;
 }
 
 .text-part{
@@ -81,45 +115,84 @@ p{
     clear:both;
     margin-top: 200px;
     padding: 10% 5%;
-    height: 500px;
-    background-color:#e6ecf5;
+    height: 700px;
+    background-color: #F0F8FF;
 }
 
 .one-third-width{
     width: 25%;
-    border: 1px solid white;
-    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
     background-color: white;
+    border-radius: 20px;
+    float: left;
+    height: 400px;
+    padding: 1% 2%;
 }
 
+
 .project-part{
-    margin-left: 15%;
-    margin-right: 5%;
-    height: 300px;
-    
+    margin-left: 5%;
+    height: 500px;
+    float: left;
 }
 
 .white-part{
     height: 1500px;
 }
 
+.white-part img{
+    width: 100%;
+}
+
 .inquiry-part{
     background-image: url("shapes/Group_33094_1.png");
-    height: 300px;
-    width: 50%;
-    color: white;
-    margin: 15%;
-    border-radius: 10px;
-}
-
-.blue-box-content1{
+    background-repeat: no-repeat;
     width: 70%;
     float: left;
-    padding: 10% 2%;
+    color: white;
+    margin: 5% 15%; 
+    border-radius: 10px;
+    height: 400px;
+    background-size: 90%;
 }
 
-.blue-box-content2{
-    width: 20%;
+.inquiry-part h2{
     float: left;
-    padding: 10% 2%;
+    padding: 5%;
+    width: 50%;
+}
+
+.inquiry-part a{
+    float: left;
+    margin: 7%;
+}
+
+.blue-part{
+    height: 30%;
+    width: 100%;
+    float: left;
+}
+
+.ending-part{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.ending-part p{
+    text-align: center;
+    font-weight: bolder;
+    color: darkslategray;
+}
+
+.icons-part{
+    float: left;
+    width: 100%;
+}
+
+.icons-part img{
+    width: 8%;
+    margin: 5px 15px;
 }
